@@ -1,0 +1,127 @@
+body {
+    margin: 0px;
+     padding: 0px; 
+     background-color: rgba(247, 243, 237, 0.71);
+      box-sizing: border-box;
+    }
+.wrapper {
+    width: 1200px;
+     margin: auto;
+     
+    }
+    
+header {
+    padding: 20px 0px;
+     box-shadow: #f5ebeb22 30px 20px 90px;
+position: fixed;
+left: 0;
+ right: 0;
+background-color:grey;
+padding-bottom: 30px;
+}
+.logo {
+    width: 40%; 
+    float: left;
+    }
+nav { 
+   width: 60%;
+    float: right;
+    }
+nav ul {
+    list-style: none; 
+    text-align: right;
+    margin-top: 5%;
+    }
+nav ul li {
+    display: inline-block;
+    }
+nav ul li a {
+    text-decoration: none; 
+    color: rgb(186, 36, 66);
+     padding: 10px 15px;
+     font-size: 30px;
+    
+    }
+.banner-section {
+    padding: 10px 0 0px 0;
+     color: navy;
+    }
+.banner-section h1 {
+    text-align: center;
+    }
+.banner-section h1 span {
+    color: blue;
+     font-style: italic; 
+   }
+
+.main-image { 
+   margin: 20px; 
+}
+.main-image img { 
+   max-width: 100%;
+   width:60%;
+   height: 40%;
+    margin: auto;
+     display: block;
+    }
+.feature-section {
+    padding: 70px 0px;
+    }
+.column { 
+   width: 50%;
+    float: left; 
+   }
+.feature { 
+   padding: 25px;
+}
+.text-align {
+    text-align: right;
+    }
+.feature h2 {
+    font-size: 70px;
+     color: aquamarine;
+      text-transform: uppercase;
+    }
+.feature h2 span {
+    color: blueviolet; 
+   }
+.feature p { 
+   font-size: 20px; 
+   color: rgb(228, 73, 226);
+    text-transform: capitalize; 
+   }
+.blog-section { 
+   margin: 33px;
+}
+.col { width: 33%;
+    float: right;
+     box-sizing: content-box; 
+     padding: 2px;
+    }
+.blog { 
+   padding: 5px; 
+   margin-right: 10px;
+    color: rgb(80, 116, 116); 
+   }
+   .blog:hover {
+       background-color:whitesmoke;
+       color: brown;
+   }
+.blog img {
+   max-width: 101%;
+   height: 223px;
+}
+.blog p {
+   height: 25px;
+}
+
+.red {
+    background-color: rgba(196, 81, 81, 0.31);
+     margin-right: auto;
+    }
+.yellow { 
+   background-color: rgba(244, 244, 60, 0.75);
+}
+.aqua { 
+   background-color: rgba(107, 197, 197, 0.19);
+}
